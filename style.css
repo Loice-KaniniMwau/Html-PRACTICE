@@ -1,0 +1,66 @@
+.container1{
+   
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    gap: 100px;
+}
+.body{
+    background-image:url(background.jpg) ;
+    background-image: url(laptop.jpg);
+    background-size: cover;
+    background-color: purple;
+}
+.button{
+    border-radius: 300px;
+  
+}
+.button1{
+   
+    border-radius: 60px;
+    color: brown;
+    font-size: medium;
+    font-weight: bolder;
+}
+.img{
+    width: 300px;
+    height: 300px;
+}
+thead,
+td{ padding: 30px;
+    border: 5px double yellow;
+    border-color: blue;
+    box-shadow: 20px;
+   
+}
+ .table{
+    border-spacing: 50px;
+ 
+    }
+ .thead:hover{
+      background-color: brown;
+    }
+ 
+  .form:hover{
+   
+    background-color: brown;
+  }
+  .button2{
+    border-radius: 50px;
+    border-color: aqua;
+    line-height: 40px;
+  }
+  .button2:hover{
+    background-color: hotpink;
+  }
+  /*  
+.body{
+    /* background-repeat: no-repeat; 
+    background-image: url(door.jpg);
+   width: 500px;
+   height: 500px;
+   
+ */
+.div{
+    
+}
