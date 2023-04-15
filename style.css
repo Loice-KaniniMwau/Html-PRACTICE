@@ -22,6 +22,26 @@
     font-size: medium;
     font-weight: bolder;
 }
+.button2{
+  border-style: none;
+  border-radius: 10px;
+  padding:15px 0px 15px 0px;
+  background-color: orangered;
+  color: white;
+   
+}
+.button4{
+  border-style: none;
+  border-radius: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  
+  background-color: orangered;
+  color: white;
+}
+.heading{
+  
+}
 .img{
     width: 300px;
     height: 300px;
@@ -45,22 +65,165 @@ td{ padding: 30px;
    
     background-color: brown;
   }
-  .button2{
-    border-radius: 50px;
-    border-color: aqua;
-    line-height: 40px;
-  }
-  .button2:hover{
-    background-color: hotpink;
-  }
-  /*  
-.body{
-    /* background-repeat: no-repeat; 
-    background-image: url(door.jpg);
-   width: 500px;
-   height: 500px;
-   
- */
-.div{
+ 
+  body{
     
+  }
+ .container{
+ display: flex;
+ gap: 70px;
+ 
+ }
+   
+ button{
+  border-radius: 200px;
+  
+ }
+ img{
+  width: 40px;
+  height: 40px;
+ }
+ 
+.div1{
+background-color: white;
+border: white;
+width: 100%;
+
+}
+.img1{
+  width:33%;
+  height: 300px;
+}
+.img2{
+  width:33%;
+  height:300px;
+}
+.img3{
+width: 33%;
+height:300px;
+}
+.div2{
+  background-color: blue;
+}
+
+.h3{
+ border:20px ; 
+ width: 600px;
+ height: 600px;
+}
+.div3{
+color:white;
+}
+h1{
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+.img4{
+  width:35%;
+  height: 400px;
+}
+.img6{
+  width:30%;
+  height: 400px;
+}
+.img7{
+  width:33%;
+  height: 400px;
+}
+.mycontainer1{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: wheat;
+}
+.mycontainer1:hover{
+color: red;
+}
+
+.signup{
+  display: flex;
+  gap: 20%;
+}
+.form{
+  margin-left: -10%;
+}
+.signup img{
+  width: 50%;
+  height: 50%;
+}
+.signup label{
+  font-weight: bolder;
+  font-style: italic;
+}
+#welcome{
+  text-align: center;
+  font-style: italic;
+  font-weight: bolder;
+}
+ .signup input{
+  padding: 4% 0% 4% 0%;
+ }
+.signup button{
+  border-radius: 30%;
+  padding: 4% 20% 4% 24%;
+ }
+ .landingpage{
+  display: flex;
+ gap: 8%;
+ 
+
+ border-radius: 30%;
+ padding: 4% 4% 4% 4%;
+
+
+}
+.landingpage li{
+  list-style: none;
+  font-family: 'Dancing Script', cursive; 
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdowncontent{
+  display: none;
+  position: absolute;
+  overflow: auto;
+
+}
+.dropdown:hover .dropdowncontent{
+  display: block;
+  color: brown;
+}
+.quotes{
+  width:50px ;
+  height:50px ;
+  margin-left: 20%;
+}
+#span{
+  font-weight: bolder;
+  font-family: 'Dancing Script', cursive; 
+  color: black;
+}
+#enjoy{
+ color: black;
+ font-weight: bolder;
+ font-size: larger;
+ margin-bottom: 10%;
+}
+#graduation{
+  width: 100%;
+  height: 130%;
+   border-radius: 10% 10% 10% 10%; 
+  margin-left: -25%;
+
+}
+.grad{
+  display: flex;
+  gap: 10%;
+}
+#signup{
+  border-style: none;
+  padding: 4% 4% 4% 4%;
 }
